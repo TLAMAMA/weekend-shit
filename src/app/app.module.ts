@@ -7,10 +7,16 @@ import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
+import { LikeComponentComponent } from './component/like-component/like-component.component';
+import { CardComponentComponent } from './component/card-component/card-component.component';
+import { CommentComponentComponent } from './component/comment-component/comment-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LikeComponentComponent,
+    CardComponentComponent,
+    CommentComponentComponent
   ],
   imports: [
     BrowserModule,
